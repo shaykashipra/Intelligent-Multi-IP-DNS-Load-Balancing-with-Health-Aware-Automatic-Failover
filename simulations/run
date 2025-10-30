@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/multi_ip_http_failover_system -n .:../src $*
+# for shared lib, use: opp_run -l ../src/multi_ip_http_failover_system -n .:../src $*
