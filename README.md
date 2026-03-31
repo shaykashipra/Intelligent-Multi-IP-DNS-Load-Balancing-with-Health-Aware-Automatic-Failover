@@ -3,7 +3,7 @@
 ## Overview
 
 This project implements an intelligent, self-healing web infrastructure that automatically routes user requests to the healthiest available servers. By combining health-aware DNS resolution, intelligent client behavior, and proactive monitoring, the system maintains high availability and optimal performance even during partial server failures.
-
+<img src="simulation.png">
 ## Traditional vs What New
 
 Traditional web infrastructure relies on reactive failure detection, meaning users experience service degradation before issues are identified. This system transforms web reliability by implementing **proactive health monitoring** and **cross-layer protocol intelligence** to prevent failures before they impact users. The innovation lies in breaking conventional protocol layer boundaries, allowing application-layer health metrics to inform both transport and network-layer decisions.
