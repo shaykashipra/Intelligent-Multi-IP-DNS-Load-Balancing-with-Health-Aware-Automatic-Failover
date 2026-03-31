@@ -93,7 +93,7 @@ Unlike conventional load balancers, this system introduces:
 5. **Cross-Layer Optimization**: Application metrics directly influence lower-layer protocol behavior
 
 ## Results
-
+<img src="failover_workflow.svg">
 - Server failures detected and isolated within 15 seconds
 - Automatic traffic redirection without user-visible errors
 - Client timeout optimization reduces latency through experience
